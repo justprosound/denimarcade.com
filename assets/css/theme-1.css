@@ -922,7 +922,7 @@ label {
   font-size: 16px
 }
 .contact-section .contact-block {
-  max-width: 800px;
+  /* max-width: 800px; */
   margin-bottom: 90px
 }
 .contact-section .contact-block .item {
