@@ -665,7 +665,7 @@ label {
 .gigs-section .gigs-contact .intro {
   font-size: 16px;
   color: #4f545e;
-  max-width: 800px
+  /* max-width: 800px */
 }
 .gigs-section .gigs-contact .btn {
   margin-top: 15px
