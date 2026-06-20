@@ -12,7 +12,7 @@
     "group:recommended",
     "helpers:pinGitHubActionDigestsToSemver",
     "mergeConfidence:all-badges",
-    "npm:unpublishSafe",
+    "security:minimumReleaseAgeNpm",
     "packages:linters",
     "replacements:all",
     "schedule:automergeEarlyMondays", 
@@ -34,10 +34,14 @@
   "separateMultipleMajor": true,
   "separateMajorMinor": true,
   "html": {
-    "fileMatch": [ "\\.html?$"]
+    "managerFilePatterns": [
+      "/\\.html?$/"
+    ]
   },
   "cdnurl": {
-    "fileMatch": [ "\\.html?$"]
+    "managerFilePatterns": [
+      "/\\.html?$/"
+    ]
   },
   "packageRules": [
     {
